@@ -58,18 +58,6 @@ JSON objects aggregated by city:
 {"city": "Mumbai", "profit_stores": 2, "loss_stores": 0}
 ```
 
-## Files Structure
-
-```
-├── mapper.py          # MapReduce mapper implementation
-├── reducer.py         # MapReduce reducer implementation
-├── small_data.json    # Sample test dataset
-├── large_data.json    # Large test dataset
-├── expected_output_small_data.txt    # Expected output for small dataset
-├── expected_output_large_data.txt    # Expected output for large dataset
-└── README.md          # This file
-```
-
 ## Implementation Details
 
 ### Mapper (mapper.py)
